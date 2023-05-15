@@ -33,9 +33,10 @@ class MyPhoToViewPage extends StatelessWidget {
               children: [
                 PhotoView(
                   minScale: PhotoViewComputedScale.contained * 1,
-                  maxScale: PhotoViewComputedScale.contained * 1,
+                  maxScale: PhotoViewComputedScale.contained * 2,
                   // enablePanAlways: true,
                   // enableRotation: true,
+                  // initialScale: PhotoViewComputedScale.contained,
                   imageProvider: const NetworkImage(
                       "https://anhdep123.com/wp-content/uploads/2020/05/%E1%BA%A3nh-con-voi.jpg"),
                 ),

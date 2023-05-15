@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:my_app/photo_view_page.dart';
-import 'package:my_app/zoom_screen_page.dart';
 import 'package:photo_view/photo_view.dart';
 
 void main() {
@@ -17,7 +16,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'WhatsApp Me',
       home: Scaffold(
-        body: MyZoomableScreen(),
+        body: MyPhoToViewPage(),
       ),
     );
   }
